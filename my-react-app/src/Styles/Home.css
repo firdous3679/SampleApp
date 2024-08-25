@@ -1,0 +1,41 @@
+/* Home.css */
+main {
+    padding: 20px;
+}
+
+.featured-products, .category-section {
+    margin-bottom: 40px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.Banner {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffecd1;
+    margin-bottom: 30px;
+}
+
+.Banner h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.Banner p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.Banner button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
